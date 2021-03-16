@@ -47,7 +47,15 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		<!--  -->
+		<!-- ### -->
+		<!-- Para a persistencia de dados do spring -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-orm -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>5.2.7.RELEASE</version>
+		</dependency>
+
 	</dependencies>
 </project>
-<!--  -->
+<!-- -->
